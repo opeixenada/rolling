@@ -3,6 +3,10 @@ import java.text.DecimalFormat
 import model.RollingWindow
 
 
+/**
+  * This object holds functionality to print the rolling window analysis results to the standard
+  * output as a table.
+  */
 object Printer {
 
   case class Column(name: String, width: Int)
